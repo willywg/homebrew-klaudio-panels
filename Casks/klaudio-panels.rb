@@ -2,7 +2,7 @@ cask "klaudio-panels" do
   version "1.1.2"
   sha256 "95a3682270a5f8b225561de013dc9cb95751e6444a94e62f80f87d26b595bac0"
 
-  url "https://github.com/willywg/klaudio-panels/releases/download/v#{version}/Klaudio%20Panels_#{version}_universal.dmg"
+  url "https://github.com/willywg/klaudio-panels/releases/download/v#{version}/Klaudio.Panels_#{version}_universal.dmg"
   name "Klaudio Panels"
   desc "Native window embedding the Claude Code CLI"
   homepage "https://github.com/willywg/klaudio-panels"
