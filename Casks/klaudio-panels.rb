@@ -1,6 +1,6 @@
 cask "klaudio-panels" do
-  version "1.2.0"
-  sha256 "3f41f158144a2a3fb1bed774fabdd940cb5fd194cfd3944f1e0ca9af2204e3d6"
+  version "1.3.0"
+  sha256 "9d7fbb63c121203a9773e198251fc982767d8d25355929702a0da865efb1ee3d"
 
   url "https://github.com/willywg/klaudio-panels/releases/download/v#{version}/Klaudio.Panels_#{version}_universal.dmg"
   name "Klaudio Panels"
