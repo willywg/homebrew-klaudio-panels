@@ -6,8 +6,13 @@ Homebrew tap for [Klaudio Panels](https://github.com/willywg/klaudio-panels) —
 
 ```bash
 brew tap willywg/klaudio-panels
+brew trust willywg/klaudio-panels   # newer Homebrew requires this once for third-party taps
 brew install --cask klaudio-panels
 ```
+
+If `brew install` or `brew upgrade` stops with *"from untrusted tap
+willywg/klaudio-panels"*, run the `brew trust` line above once and retry.
+Older Homebrew versions don't have (or need) the command.
 
 ## Upgrade
 
