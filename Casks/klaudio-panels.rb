@@ -1,6 +1,6 @@
 cask "klaudio-panels" do
-  version "1.10.1"
-  sha256 "75cf16fed08745052fb18b67b8cc62344f9b8df4f18e7664fc046be53d1e8a1a"
+  version "1.10.2"
+  sha256 "9cfad3e154d09b9392210f9b19e5a32cffdc2a0076cca73870965b78919ee544"
 
   url "https://github.com/willywg/klaudio-panels/releases/download/v#{version}/Klaudio.Panels_#{version}_universal.dmg"
   name "Klaudio Panels"
@@ -12,6 +12,7 @@ cask "klaudio-panels" do
   zap trash: [
     "~/Library/Application Support/com.willywg.klaudio-panels",
     "~/Library/Caches/com.willywg.klaudio-panels",
+    "~/Library/Caches/klaudio-panels",
     "~/Library/Logs/Klaudio Panels",
     "~/Library/Preferences/com.willywg.klaudio-panels.plist",
     "~/Library/Saved Application State/com.willywg.klaudio-panels.savedState",
